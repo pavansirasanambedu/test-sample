@@ -8,7 +8,7 @@ $headers = @{
 }
 
 # Send a POST request to the API endpoint
-$response = Invoke-RestMethod -Uri "httpbin.org/get" -Method 'GET' -Headers $headers -ContentType "application/json" -ErrorAction:Stop -TimeoutSec 60
+$response = Invoke-RestMethod -Uri "httpbin.org/get" -Method 'GET' -ContentType "application/json" -ErrorAction:Stop -TimeoutSec 60
 
 # Print the response (optional)
 Write-Host "API Response:"
