@@ -10,11 +10,6 @@ jobs:
     - name: Checkout code
       uses: actions/checkout@v2
 
-    - name: Set up PowerShell
-      uses: PowerShell/setup-powershell@v1
-      with:
-        pwsh-version: '7'  # You can specify the PowerShell version you need
-
     - name: run powershell script
       shell: pwsh
       run: |
