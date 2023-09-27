@@ -1,5 +1,5 @@
 # Define your API endpoint URL
-$apiUrl = "https://httpbin.org/get"
+$apiUrl = "https://mocktarget.apigee.net/json"
 
 # Define the request headers (if needed)
 $headers = @{
