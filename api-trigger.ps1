@@ -12,5 +12,5 @@ $response = Invoke-RestMethod -Uri "https://mocktarget.apigee.net/json" -Method:
 
 # Print the response (optional)
 Write-Host "API Response:"
-Write-Host $response
+Write-Host $response | ConvertTo-Json
 
