@@ -8,7 +8,7 @@ $headers = @{
 }
 
 # Send a POST request to the API endpoint
-$response = Invoke-RestMethod -Uri $apiUrl -Method:Get -Headers $headers
+$response = Invoke-RestMethod -Uri $apiUrl -Method:Get
 
 # Print the response (optional)
 Write-Host "API Response:"
