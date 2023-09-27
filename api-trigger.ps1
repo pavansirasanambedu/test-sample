@@ -12,5 +12,5 @@ $response = Invoke-RestMethod -Uri $apiUrl -Method:Get -ContentType "application
 
 # Print the response (optional)
 Write-Host "API Response:"
-Write-Host $response | ConvertFrom-Json
+Write-Host $response
 
